@@ -1,13 +1,20 @@
 /* css/styles.css */
 body {
-    font-family: sans-serif;
+    font-family: system-ui;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
+    
 }
 
+
+
 header {
-    background-color: #f0f0f0;
-    padding: 10px;
+    background-color: #f9c834;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,19 +37,24 @@ header {
 }
 
  .logo img {
-    height: 20px;
-    width: 20px;
+    height: 100px;
+    width: 100px;
 }
+
+ 
 
 main {
     padding: 20px;
 }
 
 footer {
-    background-color: #f0f0f0;
+    background-color: #000000;
+    color: floralwhite;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom:0;
     width: 100%;
 }
+
+
